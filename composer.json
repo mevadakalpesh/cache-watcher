@@ -1,0 +1,29 @@
+{
+    "name": "mevada-kalpesh/cache-watcher",
+    "description": "Cache Watcher is a powerful Laravel package designed to turbocharge your application's performance by optimizing data management through caching",
+    "type": "library",
+    "keywords": ["laravel", "speed-laravel", "laravel-cache","cache-viewer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mevadakalpesh",
+            "email": "mevadakalpesh23@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kalpesh\\CacheWatcher\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kalpesh\\CacheWatcher\\CacheWatchServiceProvider"
+            ]
+        }
+    }
+}
